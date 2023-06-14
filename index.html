@@ -1,3 +1,9 @@
+<script>
+document.addEventListener('keydown', keydownEvent,false); // ①
+function keydownEvent(event){
+if(event.key === "y" || event.key === "Y") {
+location.href ="yyy.html";}}
+</script>
 <head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'">
@@ -74,9 +80,3 @@
       </a>
     </div>
   </body>
-<script>
-document.addEventListener('keydown', keydownEvent,false); // ①
-function keydownEvent(event){
-if(event.key === "y" || event.key === "Y") {
-location.href ="yyy.html";}}
-</script>
